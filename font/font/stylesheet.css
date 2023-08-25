@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Prompt';
+    src: url('Prompt-ExtraBold.woff2') format('woff2'),
+        url('Prompt-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('Prompt-Black.woff2') format('woff2'),
+        url('Prompt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('Prompt-Bold.woff2') format('woff2'),
+        url('Prompt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('Prompt-BlackItalic.woff2') format('woff2'),
+        url('Prompt-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('Prompt-BoldItalic.woff2') format('woff2'),
+        url('Prompt-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('Prompt-ExtraLightItalic.woff2') format('woff2'),
+        url('Prompt-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('Prompt-SemiBoldItalic.woff2') format('woff2'),
+        url('Prompt-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('Prompt-ExtraLight.woff2') format('woff2'),
+        url('Prompt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('Prompt-ExtraBoldItalic.woff2') format('woff2'),
+        url('Prompt-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('Prompt-Medium.woff2') format('woff2'),
+        url('Prompt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('Prompt-LightItalic.woff2') format('woff2'),
+        url('Prompt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('Prompt-Italic.woff2') format('woff2'),
+        url('Prompt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('Prompt-Light.woff2') format('woff2'),
+        url('Prompt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('Prompt-Thin.woff2') format('woff2'),
+        url('Prompt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('Prompt-Regular.woff2') format('woff2'),
+        url('Prompt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('Prompt-MediumItalic.woff2') format('woff2'),
+        url('Prompt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('Prompt-SemiBold.woff2') format('woff2'),
+        url('Prompt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('Prompt-ThinItalic.woff2') format('woff2'),
+        url('Prompt-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+

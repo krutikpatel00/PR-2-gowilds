@@ -1,0 +1,356 @@
+/* xl */
+@media (max-width: 1399px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+/* lg */
+@media (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .w-lg-1 {
+    width: 100%;
+  }
+
+  .w-lg-2 {
+    width: 50%;
+  }
+
+  .w-lg-3 {
+    width: 33.33%;
+  }
+
+  .text-lg-center {
+    text-align: center;
+  }
+
+  .justify-lg-center {
+    justify-content: center;
+  }
+
+  .justify-lg-start {
+    justify-content: flex-start;
+  }
+
+  .lg-order-1 {
+    order: 1;
+  }
+
+  .about-title h2,
+  .availability-content h2,
+  .activity-title h2,
+  .services-title h2,
+  .adventure-items h2,
+  .testimonials-title h2,
+  .blog-title h2 {
+    font-size: 36px;
+  }
+
+  /* header */
+  header .theme-btn {
+    display: none;
+  }
+
+  header .navbar {
+    padding: 15px 0;
+  }
+
+  .toggle-manu {
+    display: block;
+  }
+
+  nav {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    right: 0;
+    display: none;
+    overflow: auto;
+    height: 300px;
+    background-color: var(--theme-black);
+  }
+  .icon-rotate {
+    rotate: 180deg;
+    transition: 0.4s all;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav > ul > li {
+    padding: 15px 0 15px 15px;
+    border-block: 1px solid var(--theme-green-dark);
+  }
+
+  nav ul li a {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav ul li a i {
+    transition: 0.3s all;
+  }
+
+  nav ul li:last-child {
+    display: none;
+  }
+  .drop-down {
+    position: static;
+    visibility: visible;
+    opacity: 1;
+    display: none;
+    transition: none;
+    background-color: transparent;
+  }
+  .drop-down ul li a {
+    color: var(--theme-white);
+    border: none;
+  }
+  .mega-manu {
+    display: none;
+  }
+  .sub-manu {
+    display: none;
+  }
+
+  /* banner */
+  .banner-content h1 {
+    font-size: 55px;
+  }
+
+  .banner-content p {
+    padding: 0 30px 0 0;
+  }
+
+  .banner-img {
+    margin-top: 30px;
+  }
+
+  /* about */
+
+  .about-items {
+    margin-bottom: 30px;
+  }
+
+  /* Availability */
+
+  .availability-img {
+    padding-left: 0;
+  }
+
+  .availability-img img {
+    margin: 0 0 0 15px;
+  }
+
+  /* Popular Services */
+
+  .services-items {
+    margin-bottom: 30px;
+  }
+
+  /* Testimonials */
+
+  .testimonials {
+    padding: 0 100px;
+  }
+
+  .testimonials-content {
+    margin-left: 0;
+  }
+
+  /* footer  */
+
+  .gallery-img {
+    margin: 15px;
+  }
+}
+
+/* md */
+@media (max-width: 991px) {
+  .container {
+    max-width: 720px;
+  }
+
+  .w-md-1 {
+    width: 100%;
+  }
+
+  .w-md-2 {
+    width: 50%;
+  }
+
+  .text-md-center {
+    text-align: center;
+  }
+
+  .justify-md-center {
+    justify-content: center;
+  }
+
+  /* footer */
+
+  .gallery-img {
+    margin-bottom: 30px;
+  }
+
+  .contact-inner .w-4:last-child ul i {
+    margin: 0 15px 0 0px;
+  }
+
+  .footer-inner .w-2:nth-child(2) .footer-items {
+    margin-left: 0;
+  }
+
+  /* Availability */
+
+  .availability-img {
+    margin-top: 30px;
+  }
+
+  .availability-img img {
+    margin: 0;
+  }
+
+  /* Popular Activity */
+
+  .activity-inner .w-3:first-child .activity-items {
+    margin-bottom: 30px;
+  }
+
+  /* valuation */
+
+  .valuation-items {
+    margin-bottom: 30px;
+  }
+
+  /* News & Blog */
+
+  .blog-items {
+    margin-bottom: 30px;
+  }
+
+  /* FOOTER */
+
+  .contact-inner .w-4:nth-child(n + 3) .contact-items {
+    margin-top: 30px;
+  }
+
+  .footer-items {
+    margin: 25px 0;
+  }
+
+  .footer-items ul:last-child {
+    margin: 0px 0px 0px 15px;
+  }
+
+  .copy-right {
+    margin-bottom: 15px;
+  }
+}
+
+/* sm */
+@media (max-width: 767px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .flex-sm-wrap {
+    flex-wrap: wrap;
+  }
+
+  .w-sm-1 {
+    width: 100%;
+  }
+
+  .w-sm-2 {
+    width: 50%;
+  }
+
+  .about-title h2,
+  .availability-content h2,
+  .activity-title h2,
+  .services-title h2,
+  .adventure-items h2,
+  .testimonials-title h2,
+  .blog-title h2 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  /* banner */
+
+  .banner-content p {
+    padding: 0 0 30px 0;
+  }
+
+  /* Availability */
+
+  .input-grop {
+    margin: 10px 0;
+  }
+
+  /* Popular Activity */
+
+  .activity-inner .w-3:nth-child(2) .activity-items {
+    margin-bottom: 30px;
+  }
+
+  /* Testimonials */
+  .testimonials {
+    padding: 0 50px;
+  }
+
+  .testimonials-content p {
+    font-size: 24px;
+  }
+
+  /* footer */
+
+  .footer-inner .w-2:nth-child(2) .footer-items {
+    margin: 30px 0px;
+  }
+
+  .footer-items ul:last-child {
+    margin: 0px 0px 0px 80px;
+  }
+}
+
+/* xs */
+@media (max-width: 575px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .w-xs-1 {
+    width: 100%;
+  }
+
+  .mx-xs {
+    margin: 15px 0;
+  }
+
+  .banner-content h1 {
+    font-size: 40px;
+  }
+
+  /* Testimonials */
+  .testimonials {
+    padding: 0;
+  }
+
+  /* footer */
+  .contact-inner .w-4:nth-child(2) .contact-items {
+    margin-top: 30px;
+  }
+
+  .footer-inner .w-2:nth-child(2) .footer-items {
+    margin: 0px 0px;
+  }
+
+  .footer-items ul:last-child {
+    margin: 0px 0px 0px 30px;
+  }
+}
